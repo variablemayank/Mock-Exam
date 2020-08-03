@@ -3,7 +3,6 @@ import "./index.css";
 import { Link } from "react-router-dom";
 import Header from "../Header";
 
-
 class Login extends Component {
   state = {
     userName: "",
@@ -29,7 +28,9 @@ class Login extends Component {
             />
           </div>
           <Link
-            to={`/mock-exam/${this.state.userName}`}
+            to={`/mock-exam/${
+              this.state.userName.length > 0 ? this.state.userName : "Demo"
+            }`}
             className="button-container"
           >
             Start Exam
