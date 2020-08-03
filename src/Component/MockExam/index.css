@@ -76,10 +76,3 @@
     flex-direction: column;
 }
 
-
-
-@media only screen and (max-width: 600px) {
-   .question-title {
-       width: 70px;
-   }
-  }
