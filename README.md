@@ -15,3 +15,6 @@ To build the project
 ### Project is deployed on Netlify
 ```https://modest-almeida-2ca6ea.netlify.app/```
 
+### To Export the Project 
+
+yarn build and files inside build can be exported 
