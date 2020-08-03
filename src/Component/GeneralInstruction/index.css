@@ -1,0 +1,18 @@
+.general-instruction {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 90%;
+  padding: 0 20px;
+  border: 1px solid #f1f1f1;
+}
+.general-instruction-header {
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 23px;
+}
+
+.instruction {
+  margin: 20px 0;
+}
